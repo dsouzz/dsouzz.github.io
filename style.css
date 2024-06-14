@@ -1,14 +1,35 @@
 body {
     background-color: black;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header {
     background-color: rgb(65, 65, 65);
-    padding: 5px;
+    padding: 3px;
     margin-inline-start: -9px;
     margin-inline-end: -8px;
     h1 {
         text-align: center;
         color: gold;
     }
+    h3 {
+        text-align: center;
+        color: orange;
+    }
+}
+p {
+    text-align: center;
+    color: black;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    margin-inline-start: 750px; 
+    margin-inline-end: 750px;
+    border-radius: 5px;
+    box-shadow: 0 1.25px 2.5px;
+}
+p a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 15px;
 }
