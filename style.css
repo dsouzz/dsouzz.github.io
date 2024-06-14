@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    color: white;
+}
+header {
+    background-color: rgb(65, 65, 65);
+    padding: 5px;
+    margin-inline-start: -9px;
+    margin-inline-end: -8px;
+    h1 {
+        text-align: center;
+        color: gold;
+    }
+}
