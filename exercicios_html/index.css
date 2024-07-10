@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(assets/clouds.jpg);
+    h1 {
+        background-color: rgb(180, 180, 180);
+        padding: 15px;
+        margin-inline-start: -10px;
+        margin-inline-end: -7px;
+        text-align: center;
+        color: gold;
+    }
+    h2 {
+        text-align: center;
+        color: white;
+        font-size: x-large;
+    }
+    p {
+        background-color: rgb(180, 180, 180);
+        padding: 10px;
+        border-radius: 10px;
+        margin-inline-start: 350px;
+        margin-inline-end: 350px;
+    }
+    p a {
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+}
+.box {
+    transition: transform 0.2s ease-out; /* Adiciona transição suave */
+}

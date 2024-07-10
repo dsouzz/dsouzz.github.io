@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogos</title>
+    <link rel="stylesheet" href="/css/jogos.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="header">
+        <h1>Bem vindo a pagina de jogos!</h1>
+        <h3>Nesta pagina, separei alguns<br>jogos que encontrei no GitHub</h3>
+        </div>
+    </header>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <main>
+        <div class="content">
+            <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="/jogos/GTA2/index.html">GTA2</a></p>
+            <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="/jogos/Minecraft/index.html">Minecraft Classic</a></p>
+            <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="/jogos/Snake/snake.html">Snake</a></p>
+            <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="/jogos/Tetris/index.html">Tetris</a></p>
+        </div>
+        </main>
+    <footer class="footer">
+        <div>
+            <p>
+                <a href="contato.html">Entrar em Contato</a> |
+                <a href="about.html">Sobre Mim</a> |
+                <a href="https://github.com/dsouzz">Perfil no GitHub</a> |
+                <a href="index.html">Inicio</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        function grow(element) {
+            element.style.transform = "scale(1.1)"
+        }
+    
+        function shrink(element) {
+            element.style.transform = "scale(1)"
+        }
+    </script>
+</body>
+</html>

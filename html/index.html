@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>Site Pessoal de <strong><u>dsouzz</u></strong></h1>
+        </header>
+    </div>
+    <main>
+        <nav class="welcome">
+        <p>
+            Bem vindo ao meu site pessoal!<br>
+            Por favor, sinta-se a vontade para<br>
+            escolher uma das opções abaixo:
+        </p>
+        </nav><br><br><br><br><br><br><br><br><br>  
+        <div class="ops">
+                <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="atend.html">Atendimento</a></p>
+                <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="curriculo.html">Curriculo</a></p>
+                <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="sites.html">Meus Sites</a></p>
+                <p class="box" onmouseover="grow(this)" onmouseout="shrink(this)"><a href="outros.html">Outros Projetos</a></p>
+        </div>
+    </main>
+    <br><br><br><br><br><br>
+    <footer class="footer">
+        <div>
+            <p>
+                <a href="contato.html">Entrar em Contato</a> |
+                <a href="about.html">Sobre Mim</a> |
+                <a href="https://github.com/dsouzz">Perfil no GitHub</a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        function grow(element) {
+            element.style.transform = "scale(1.1)"
+        }
+    
+        function shrink(element) {
+            element.style.transform = "scale(1)"
+        }
+    </script>
+</body>
+</html>
